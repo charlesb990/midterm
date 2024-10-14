@@ -1,0 +1,78 @@
+*{
+.wrapper{
+    background-color:lightgreen;
+    height: 600px;
+    width: 90%;
+    border-radius: 15px;
+    position: relative;
+}
+
+
+.pin{
+    height: 110px;
+    width: 170px;
+    border-radius: 15px;
+    background-color: red;
+    position: absolute;
+}
+
+.american{
+    background-image: url(./american.jpg);
+    position: absolute;
+    left: 0px;
+    margin-left: 10px;
+    top: 120px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid green;
+}
+
+.chinese{
+    background-image: url(./chinese.jpg);
+    position: absolute;
+    left: 960px;
+    top: 120px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid green;
+}
+
+.greek{
+    background-image: url(./greek.jpg);
+    position: absolute;
+    left: 660px;
+    top: 120px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid green;
+}
+
+.italian{
+    background-image: url(./italian.jpg);
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid green;
+}
+
+h1{
+    background-color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    top: 20px;
+    left: 420px;
+    position: absolute;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+}
